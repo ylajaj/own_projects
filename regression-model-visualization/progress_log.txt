@@ -1,0 +1,35 @@
+Tue 10.3:
+
+Overview:
+The current version of the program already works pretty well. The most important classes of this project are: Regression, Plot, Data and UI.
+The Regression class handles the calculation of the regression model from a data set. Three types of regressions have been implemented:
+linear, exponential and logarithmic. More information can be found from the class Regression. The Plot class first maps the data between some
+constraints. These mapped values are used to create coordinates for the lines and squares (scalafx) of the plot. The Data class handles 
+the reading of the data set The program currently supports txt, csv and xlsx files. The UI class is also implemented. The user can choose 
+constraints for the plot. 
+
+Workload:
+I have worked around 65h for this project.
+
+Problems:
+Importing an empty excel file causes an error.
+The user has to click the "ok" button two times when importing csv or xlsx files. 
+The user can make the plot look stupid. (long label texts, weird constraints)
+The user may only "zoom" certain amount because the axes only work for integers.
+
+Tue 24.3.
+
+I think I am already pretty happy with my program so I did not think about it during the last few weeks. I'll try to focus on the problems in April.
+
+Thu 16.4.
+
+Overview:
+Consentrated on finding the issues about the program, but so many hours have been spend during this project that I did not fix most of the problems.
+Most of the time was spend testing, writing the report and trying to get the program work on different computers.
+
+Workload:
+55h (writing report 40h)
+
+
+Workload overall:
+Around 120h

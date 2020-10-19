@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/UI.scala:1:14: object swing is not a member of package scala[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.swing._[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/UI.scala:3:18: not found: type MainFrame[0m
+[0m[[0m[31merror[0m] [0m[0mclass UI extends MainFrame {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/UI.scala:71:3: not found: value title[0m
+[0m[[0m[31merror[0m] [0m[0m  title = "GUI Program #1"[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/UI.scala:72:3: not found: value preferredSize[0m
+[0m[[0m[31merror[0m] [0m[0m  preferredSize = new Dimension(1000, 1000)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/UI.scala:73:3: not found: value contents[0m
+[0m[[0m[31merror[0m] [0m[0m  contents = new Label("Slope: " + model.get._1 + " Constant: " + model.get._2)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/UI.scala:79:8: value visible is not a member of UI[0m
+[0m[[0m[31merror[0m] [0m[0m    ui.visible = true[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
