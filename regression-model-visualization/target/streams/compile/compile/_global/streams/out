@@ -1,6 +1,401 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/Juho/Desktop/visual-regression/regression-model-visualization/src/main/scala/Plot.scala:442:71: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Double[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m          for (increment <- loopMinimum.toInt to loopMaximum.toInt by logLoopIncrement) {[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Color.class refers to term javafx[0m
+[0m[[0m[31merror[0m] [0m[0min package <root> which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Color.class.[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Color.class refers to term scene[0m
+[0m[[0m[31merror[0m] [0m[0min value javafx which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Color.class.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:1:28: bad symbolic reference. A signature in Color.class refers to term paint[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Color.class.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.paint.Color.{Black, Grey}[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Shape.class refers to term javafx[0m
+[0m[[0m[31merror[0m] [0m[0min package <root> which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Shape.class refers to term scene[0m
+[0m[[0m[31merror[0m] [0m[0min value javafx which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:21:25: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var numberLines = Seq[Shape]() //All the lines: axes and grid[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Text.class refers to term javafx[0m
+[0m[[0m[31merror[0m] [0m[0min package <root> which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Text.class refers to term scene[0m
+[0m[[0m[31merror[0m] [0m[0min value javafx which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:22:22: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var textList = Seq[Text]() //Numbers outside the coordinate system[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:27:14: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var xAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Line.class refers to term javafx[0m
+[0m[[0m[31merror[0m] [0m[0min package <root> which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Line.class refers to term scene[0m
+[0m[[0m[31merror[0m] [0m[0min value javafx which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:27:46: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var xAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:28:5: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m    startX = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:29:5: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m    endX= xConstant + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:30:5: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m    startY = yConstant[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:31:5: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m    endY = yConstant[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:32:5: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m    strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:33:5: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m    stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:35:14: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var yAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:35:46: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var yAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:36:5: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m    startX = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:37:5: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m    endX= padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:38:5: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m    startY = yConstant[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:39:5: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m    endY = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:40:5: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m    strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:41:5: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m    stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:43:16: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a1xAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:43:48: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a1xAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:44:5: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m    startX = xConstant + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:45:5: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m    endX= xConstant + padding - 5[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:46:5: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m    startY = yConstant[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:47:5: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m    endY = yConstant-5[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:48:5: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m    strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:49:5: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m    stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:51:16: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a2xAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:51:48: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a2xAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:52:5: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m    startX = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:53:5: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m    endX= 5 + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:54:5: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m    startY = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:55:5: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m    endY = 5 + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:56:5: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m    strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:57:5: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m    stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:59:16: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a1yAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:59:48: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a1yAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:60:5: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m    startX = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:61:5: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m    endX= -5 + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:62:5: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m    startY = padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:63:5: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m    endY = 5 + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:64:5: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m    strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:65:5: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m    stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:67:16: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a2yAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:67:48: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  var a2yAxis: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:68:5: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m    startX = xConstant + padding[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:69:5: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m    endX= xConstant + padding - 5[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:70:5: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m    startY = yConstant[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:71:5: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m    endY = yConstant + 5[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:72:5: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m    strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:73:5: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m    stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:79:19: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m        val line: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:79:51: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m        val line: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:80:11: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m          startX = padding + i * (xConstant / 5.0).toInt[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:81:11: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m          endX = padding + i * (xConstant / 5.0).toInt[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:82:11: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m          startY = yConstant[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:83:11: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m          endY = yConstant - 5[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:84:11: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m          strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:85:11: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m          stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:108:20: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m    val text = new Text((constraintX._1+i*adderX).toInt.toString) {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:109:7: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m      x = padding + i * (xConstant / 5.0).toInt-text.value.length*4[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:110:7: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m      y = yConstant + 20[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:117:19: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m        var line: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:117:51: bad symbolic reference. A signature in Line.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Line.class.[0m
+[0m[[0m[31merror[0m] [0m[0m        var line: Shape = new scalafx.scene.shape.Line() {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:118:11: not found: value startX[0m
+[0m[[0m[31merror[0m] [0m[0m          startX = padding[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:119:11: not found: value endX[0m
+[0m[[0m[31merror[0m] [0m[0m          endX = padding + 5[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:120:11: not found: value startY[0m
+[0m[[0m[31merror[0m] [0m[0m          startY = yConstant - i * ((yConstant - padding) / 5.0).toInt-1[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:121:11: not found: value endY[0m
+[0m[[0m[31merror[0m] [0m[0m          endY = yConstant - i * ((yConstant - padding) / 5.0).toInt-1[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:122:11: not found: value strokeWidth[0m
+[0m[[0m[31merror[0m] [0m[0m          strokeWidth = 2[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:123:11: not found: value stroke[0m
+[0m[[0m[31merror[0m] [0m[0m          stroke = Black[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:146:20: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m    val text = new Text((constraintY._1+i*adderY).toInt.toString) {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:147:7: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m      x = padding - 20-text.value.length*4[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:148:7: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m      y = yConstant - i * ((yConstant - padding) / 5.0).toInt+4[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:162:22: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m      val text = new Text("x10" + "^" + zeros) {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:163:9: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m        x = padding + 5 * (xConstant / 5.0).toInt-text.value.length*4[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:164:9: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m        y = yConstant + 45[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:172:22: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m      val text = new Text("x10" + "^"+"(-" + zeros+")") {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:173:9: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m        x = padding + 5* (xConstant / 5.0).toInt-text.value.length*4[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:174:9: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m        y = yConstant + 45[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:189:22: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m      val text = new Text("x10" + "^" + zeros) {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:190:9: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m        x = padding[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:191:9: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m        y = padding - 15[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:199:22: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m      val text = new Text("x10" + "^"+"(-" + zeros+")") {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:200:9: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m        x = padding[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:201:9: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m        y = padding - 15[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:217:27: bad symbolic reference. A signature in Shape.class refers to term shape[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Shape.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  def returnVisuals: (Seq[Shape], Seq[Text]) = (numberLines,textList)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/CoordinateSystem.scala:217:39: bad symbolic reference. A signature in Text.class refers to term text[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Text.class.[0m
+[0m[[0m[31merror[0m] [0m[0m  def returnVisuals: (Seq[Shape], Seq[Text]) = (numberLines,textList)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Alert.class refers to term javafx[0m
+[0m[[0m[31merror[0m] [0m[0min package <root> which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Alert.class.[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference. A signature in Alert.class refers to term scene[0m
+[0m[[0m[31merror[0m] [0m[0min value javafx which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Alert.class.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/Data.scala:6:30: bad symbolic reference. A signature in Alert.class refers to term control[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Alert.class.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.control.Alert.AlertType[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/Data.scala:80:27: bad symbolic reference. A signature in Alert.class refers to term control[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Alert.class.[0m
+[0m[[0m[31merror[0m] [0m[0m          val alert = new Alert(AlertType.Warning) {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/juhoyla-jaaski/Documents/own_projects/regression-model-visualization/src/main/scala/Legend.scala:9:83: bad symbolic reference. A signature in Color.class refers to term paint[0m
+[0m[[0m[31merror[0m] [0m[0min value <root>.scene which is not available.[0m
+[0m[[0m[31merror[0m] [0m[0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[0m[31merror[0m] [0m[0mthe classpath might be incompatible with the version used when compiling Color.class.[0m
+[0m[[0m[31merror[0m] [0m[0mclass Legend(coordinateSystem: CoordinateSystem, legendPos: String, dataset: Seq[(Color, String)], texts: Seq[String]) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m360 errors found[0m
